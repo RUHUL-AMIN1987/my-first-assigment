@@ -217,26 +217,43 @@ nav li{
         font-size: 100px;
         color: rgba(78, 71, 255, 1);
         text-align: center;
-        padding-top: 100px;
+        /* padding-top: 100px; */
+        margin-bottom: 10px;
      }
      .sec{
         box-shadow: 0px 6px 50px rgba(242, 237, 237, 1);
-     }
+        padding-top: 104px;
+        padding-bottom: 104px;    
+    }
      .pa{
         text-align: center;
+         margin-top: 0px;
      }
-     .nav{
+     /* .nav{
         align-items: center;
         margin-left: 750px;
         padding-bottom: 100px;
-     }
-     .ul{
+     } */
+     .nav {
+        display: flex;
+        justify-content: center;
+        margin-top: 20px;
+        }
+     /* .ul{
        list-style: none;
        display: flex;
        gap: 48px;
        padding: 0px;
        margin: 0px;
-     }
+     } */
+
+     .ul {
+  display: flex;
+  list-style: none;
+  gap: 30px;
+  padding: 0;
+  margin: 0;
+}
       .home{
         align-items: center;
       }
@@ -247,3 +264,10 @@ nav li{
       .h3{
         font-size: 16px;
       }
+
+      .ul li a {
+  text-decoration: none;
+  color: #333;
+  font-weight: 500;
+  padding: 5px 10px;
+}
