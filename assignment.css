@@ -68,12 +68,14 @@ nav li{
 .mai{
     display: flex;
     justify-content: center;
-    gap: 220px;
+    /* gap: 220px;
     padding-left: 100px;
     padding-right: 160px;
-    margin-bottom: 120px;
-    flex-wrap: wrap;
+    margin-bottom: 120px; */
+    /* flex-wrap: wrap; */
     text-align: center;
+    gap: 220px;
+    padding-bottom: 116px;
 }
 .mini{
     border-radius: 48px;
@@ -81,15 +83,27 @@ nav li{
 }
 .more {
   /* margin: auto; */
-  max-width: 300px;
-   gap: 220px;
+  /* max-width: 300px; */
+   /* gap: 120px; */
    /* margin-bottom: 120px; */
 }
 .see{
     font-size: 42px;
+    text-align: left;
 }
 .exp{
     font-size: 24px;
+    text-align: left;
+}
+.b{
+    justify-content: flex-start;
+     background-color: rgba(78, 71, 255, 1);
+    font-size: 16px;
+    color: azure;
+    border-radius: 10px;
+    padding: 12px 36px;
+    cursor: pointer;
+    display: flex;
 }
 .join{
     background-color: rgba(78, 71, 255, 0.1);
