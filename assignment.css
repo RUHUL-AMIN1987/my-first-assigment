@@ -238,6 +238,7 @@ nav li{
         display: flex;
         justify-content: center;
         margin-top: 20px;
+        text-decoration: none;
         }
      /* .ul{
        list-style: none;
