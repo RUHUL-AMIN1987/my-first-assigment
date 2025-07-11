@@ -37,6 +37,7 @@ nav li{
     color: azure;
     border-radius: 10px;
     padding: 12px 36px;
+    cursor: pointer;
 }
 .middle{
     justify-content: center;
@@ -208,6 +209,7 @@ nav li{
         border-radius: 10px;
         padding: 12px 36px;
         width: 100%;
+        cursor: pointer;
      }
      .form{
         margin-left: 500px;
@@ -229,25 +231,14 @@ nav li{
         text-align: center;
          margin-top: 0px;
      }
-     /* .nav{
-        align-items: center;
-        margin-left: 750px;
-        padding-bottom: 100px;
-     } */
+    
      .nav {
         display: flex;
         justify-content: center;
         margin-top: 20px;
         text-decoration: none;
         }
-     /* .ul{
-       list-style: none;
-       display: flex;
-       gap: 48px;
-       padding: 0px;
-       margin: 0px;
-     } */
-
+   
      .ul {
   display: flex;
   list-style: none;
@@ -267,8 +258,8 @@ nav li{
       }
 
       .ul li a {
-  text-decoration: none;
-  color: #333;
-  font-weight: 500;
-  padding: 5px 10px;
-}
+        text-decoration: none;
+        color: #333;
+        font-weight: 500;
+        padding: 5px 10px;
+      }
