@@ -244,3 +244,6 @@ nav li{
         display: flex;
         gap: 6px;
       }
+      .h3{
+        font-size: 16px;
+      }
