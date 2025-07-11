@@ -240,3 +240,7 @@ nav li{
       .home{
         align-items: center;
       }
+      .flax{
+        display: flex;
+        gap: 6px;
+      }
